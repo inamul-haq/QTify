@@ -1,0 +1,28 @@
+.search{
+    color: var(--color-black);
+    background-color: var(--color-white);
+    width: 502px;
+    height: 100%;
+    padding: 14px 20px;
+    border-radius: 8px 0 0 8px;
+    border: 1px solid #121212;
+
+}
+.searchButton{
+    height: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid #121212;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    padding: 14px 20px;
+
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    height:48px;
+}
