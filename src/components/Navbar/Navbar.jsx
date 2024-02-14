@@ -1,7 +1,7 @@
 import React from "react";
 import './navbar.css'
 import Button from '../Button/Button'
-import Search from '../search/Search'
+import Search from '../Search/Search'
 import Logo from "../Logo/Logo";
 
 
