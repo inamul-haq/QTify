@@ -1,6 +1,6 @@
 import React from 'react'
 import {ReactComponent as QTripLogo} from '../../assets/qtify-logo.svg'
-import './qtifylogo.css'
+import './logo.css'
 
 
 
