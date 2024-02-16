@@ -3,7 +3,9 @@ import LogoImage from "../../assets/qtify-logo.svg";
 import Styles from '../Logo/Logo.module.css'
 function Logo(){
     return(
-        <img src={LogoImage} alt="Logo" width={67} className={Styles.logo}/>
+        <div className={Styles.logoContainer}>
+            <img src={LogoImage} alt="Logo" className={Styles.logo} />
+        </div>
     );
 }
 
