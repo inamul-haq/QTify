@@ -10,7 +10,7 @@ function Navbar(){
     const placeholder = "Search a album of your choice"
     return(
             <div className={styles.navbar}>
-                <Logo className={styles.logo}/>
+                <Logo/>
                 <SearchBox placeholder={placeholder}/>
                 <FeedbackButton children='Give Feedback'/>
         </div>
