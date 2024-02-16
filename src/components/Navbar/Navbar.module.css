@@ -1,12 +1,10 @@
 .navbar{
-    width: 100%;
-    height: 74px;
     background-color: var(--color-primary);
+    height: 74px;
+    width: 100vw;
+    padding: 0 32px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-
-.logo{
-    padding-left: 20em;
+    justify-content: space-between;
+    
 }

@@ -6,7 +6,7 @@ import styles from './Logo.module.css'
 
 function Logo (){
     return (
-        <img src={LogoImage} alt="Logo" width={67} className={styles.logo}/>
+        <img src={LogoImage} alt="Logo" width={67} />
     );
     
 }
