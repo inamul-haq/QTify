@@ -1,9 +1,9 @@
 import React from "react";
-import './buttonModule.css'
+import styles from './FeedbackButton.module.css'
 
 const Button = ({children}) => {
     return(
-        <button className="feedbackbutton">{children}</button>
+        <button className={styles.feedbackbutton}>{children}</button>
     )
 
 }
