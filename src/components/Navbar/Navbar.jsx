@@ -1,20 +1,21 @@
 import React from "react";
-import './navbar.css'
-import Button from '../button/Button'
-import Search from '../search/Search'
+import styles from './Navbar.module.css'
+import FeedbackButton from '../FeedbackButton/FeedbackButton'
+import SearchBox from '../SearchBox/SearchBox'
 import Logo from "../Logo/Logo";
 
 
 
-const Header = () => {
+function Navbar(){
+    const placeholder = "Search a album of your choice"
     return(
-            <div className="navbar">
-                <Logo className="logo"/>
-                <Search placeholder='Search a album of your choice'/>
-                <Button children='Give Feedback'/>
+            <div className={styles.navbar}>
+                <Logo className={styles.logo}/>
+                <SearchBox placeholder={placeholder}/>
+                <FeedbackButton children='Give Feedback'/>
         </div>
     )
 
 }
 
-export default Header;
+export default Navbar;

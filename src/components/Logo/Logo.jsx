@@ -1,17 +1,14 @@
 import React from 'react'
-import {ReactComponent as QTripLogo} from '../../assets/qtify-logo.svg'
-import './logo.css'
+import  LogoImage from '../../assets/qtify-logo.svg'
+import styles from './Logo.module.css'
 
 
 
-const QLogo = () => {
+function Logo (){
     return (
-        <div className='qlogo'> 
-            <QTripLogo/>
-        </div>
-
-    )
+        <img src={LogoImage} alt="Logo" width={67} className={styles.logo}/>
+    );
     
 }
 
-export default QLogo;
+export default Logo;
